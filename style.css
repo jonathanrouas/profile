@@ -1,0 +1,64 @@
+body {
+  background-color: #f5f0f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2, h3 {
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px lightgray;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
